@@ -1,0 +1,10 @@
+doctype html
+html(ng-app)
+  head
+    title= title
+    link(rel='stylesheet', href='/style.css')
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js")
+    script(src="/controller.js")
+  body
+    section(class='post-group main-content-wrap')
+      block content
